@@ -164,6 +164,11 @@
     cursor:pointer;
 
  }
+ .like img{
+    width:20px;
+    height:20px;
+    object-fit: contain;
+ }
  .vc{
     display: flex;
     flex-direction: row;
@@ -188,6 +193,10 @@
     background: gray;
     border-radius: 2px;
     cursor:pointer;
+ }
+ .share img{
+    height:20px;
+    width:20px;
  }
  input {
     width: 432px;
@@ -263,7 +272,7 @@
     flex-direction: row;
     width: 550px;
     height: 90px;
-    border-radius: 30px;
+    border-radius: 30px 0px 0px 30px;
     background: black;
     position: fixed;
     margin-top: -54px;
@@ -308,10 +317,17 @@
 }
  .content{
     width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
  }
  .bleft{
     width: 100%;
     margin-top: 65px;
+
+ }
+ .left{
+    margin-left:0px;
+    margin-right: 0px;
 
  }
  .bright{
@@ -320,7 +336,7 @@
 
 
 .mainp {
-    width: 192%;
+    width: 200%;
     border: 2px solid black;
 }
 .pphoto{
@@ -329,12 +345,12 @@
 
 }
 .pphoto img{
-    width: 892px;
+    width: 977px;
 }
 .bstory {
     display: flex;
     flex-direction: row;
-    width: 191.5%;
+    width: 199.7%;
     overflow-x: auto;
 }
 .story {
@@ -374,7 +390,8 @@
     height: 106px;
 }
 .logo img{
-    width: 70px;
+    width: 90px;
+    margin-top:5px;
 }
 .mess img {
     width: 80px;
@@ -420,4 +437,8 @@ input {
     cursor: pointer;
 }
 
+.share img {
+    height: 60px;
+    width: 60px;
+}
 }
