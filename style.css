@@ -422,7 +422,7 @@
     width: 60px;
     border-radius: 60px;
     left: 0;
-    background: #ff0015;
+    background: red;
     cursor: pointer;
     margin-right: 25px;
 }
