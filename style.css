@@ -1,0 +1,311 @@
+ *{
+ 	margin: 0;
+ 	padding: 0;
+ 	box-sizing: border-box;;
+
+ }
+ .navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    height: 58px;
+
+    
+ }
+ .navm{
+    border: 1px solid black;
+    width: 100%;
+    border-left: 0px;
+    position: fixed;
+    border-right: 0px;
+    background: white;
+
+ }
+ nav{
+    flex: 1;
+    text-align:right;
+
+ }
+ nav ul{
+    display: inline-block;
+    list-style-type: none;
+    background: black;
+    border-radius: 10px;
+    height: 53px;
+    margin-left: 406px;
+    margin-top: 2px;
+
+    
+ }
+ .logo img{
+    margin-top: 8px;
+ }
+ nav ul li {
+    display: inline-block;
+    margin:20px;
+
+
+
+ }
+ a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+ }
+ .logo{
+    cursor: pointer;
+    margin-left: 0px;
+ }
+ .box{
+    max-width: 1100px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+ .cm{
+    border: 1px solid;
+    border-left: 0px;
+    border-right: 0px;
+ }
+ .content{
+    max-width: 1100px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 61px;
+ }
+.right{
+    margin-left: 5px;
+    margin-right:20px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+
+
+ }
+ .left{
+    margin-left: 20px;
+    margin-right:5px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+
+ }
+ .db{
+    display: flex;
+    flex-direction: row;
+    width: 350px;
+    height: 45px;
+    border-radius: 12px;
+    background: black;
+    position: fixed;
+    margin-left: 150px;
+    margin-top: 1px;
+}
+ .dbu{
+    margin: auto;
+    cursor: pointer;
+    color: white;
+ }
+ .bleft{
+    width: 50%;
+    min-width:525px;
+    background: #f7f7f7;
+
+ }
+ .bright{
+    width: 50%;
+
+ }
+ .story{
+    height: 75px;
+    min-width: 75px;
+    border-radius: 50px;
+    background: black;
+    margin: 2px;
+    border: 3px solid #b9b9b9;
+    cursor: pointer;
+    
+ }
+ .bstory{
+    display: flex;
+    flex-direction: row;
+    width: 185%;
+    overflow-x: auto;
+ }
+ .userphoto{
+    height:50px;
+    width: 50px;
+    border-radius:50px;
+    background: black;
+    margin: 2px;
+
+ }
+ .pphoto{
+    max-height: 500px;
+    width:481px;
+    margin: auto;
+ }
+ .mainp{
+    width:485px;
+    border: 2px solid black;;
+ }
+ .like{
+    height:20px;
+    width: 20px;
+    border-radius: 25px;
+    background: #ff0015;
+    cursor:pointer;
+
+ }
+ .vc{
+    display: flex;
+    flex-direction: row;
+    background: black;
+    padding: 3px;
+    align-items: center;
+    justify-content: center;
+
+ }
+ .userinfo{
+    display: flex;
+    flex-direction:row;
+    background:#e5e5e5;
+ }
+ .userinfo p{
+    margin-top:32px;
+
+ }
+ .share{
+    height:20px;
+    width:20px;
+    background: gray;
+    border-radius: 2px;
+    cursor:pointer;
+ }
+ input {
+    width: 432px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor:pointer;
+
+ }
+ .userphoto img{
+    border-radius: 50px;
+    height: 50px;
+    width:50px;
+    cursor:pointer;
+    object-fit: contain;
+ }
+ .mess img{
+    width: 40px;
+    border-radius: 40px;
+    margin-top: 3px;
+ }
+ .post img{
+    width: 40px;
+    border-radius: 40px;
+    margin-top: 3px;
+    background: white;
+ }
+ .camera img{
+    width: 40px;
+    border-radius: 40px;
+    margin-top: 3px;
+    background: white;
+ }
+  .setting img{
+    width: 30px;
+    border-radius: 40px;
+    margin-top:5px
+
+ }
+ ul li a img{
+    width: 45px;
+    border-radius: 40px;
+    background: white;
+    margin-top: -16px;
+    object-fit: contain;
+    height: 45px;
+ }
+
+@media only screen and (max-width:1100px){
+
+ .db{
+    display: flex;
+    flex-direction: row;
+    width: 350px;
+    height: 45px;
+    border-radius: 12px;
+    background: black;
+    position: fixed;
+    margin-top: -54px;
+    margin-left: -360px;
+
+ }
+ nav ul{
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    bottom: -1px;
+    left: 0;
+    width: 100%;
+    min-height: 53px;
+    margin: 0;
+    border-radius:0
+  }
+
+  nav {
+    flex: 0;
+    text-align: center;
+    margin: auto;
+  }
+
+  a{
+    margin: inherit;
+  }
+
+  nav ul li {
+    display: inline-block;
+    margin: auto;
+    margin-top: 20px;
+    cursor: pointer;
+    color: white;
+  }
+ .content{
+    width: 100%;
+ }
+ .bleft{
+    width: 100%;
+
+ }
+ .bright{
+    width: 0;
+ }
+
+
+.mainp {
+    width: 192%;
+    border: 2px solid black;
+}
+.pphoto{
+    max-height:1000px;
+    margin: 0;
+
+}
+.pphoto img{
+    width: 892px;
+}
+.bstory {
+    display: flex;
+    flex-direction: row;
+    width: 191.5%;
+    overflow-x: auto;
+}
+}
