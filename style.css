@@ -160,8 +160,9 @@
     height:20px;
     width: 20px;
     border-radius: 25px;
-    background: #ff0015;
+    background: black;
     cursor:pointer;
+    margin-right: 10px;
 
  }
  .like img{
@@ -193,13 +194,14 @@
     background: gray;
     border-radius: 2px;
     cursor:pointer;
+    margin-left: 10px;
  }
  .share img{
     height:20px;
     width:20px;
  }
  input {
-    width: 432px;
+    width: 400px;
     font-size: 16px;
     border-radius: 5px;
     cursor:pointer;
@@ -359,7 +361,7 @@
     border-radius: 250px;
     background: black;
     margin: 2px;
-    border: 3px solid #b9b9b9;
+    border: 11px solid #b9b9b9;
     cursor: pointer;
 }
 
@@ -422,6 +424,12 @@
     left: 0;
     background: #ff0015;
     cursor: pointer;
+    margin-right: 25px;
+}
+.like img {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
 }
 .share {
     height: 60px;
@@ -429,9 +437,10 @@
     background: gray;
     border-radius: 12px;
     cursor: pointer;
+    margin-left:25px;
 }
 input {
-    width: 90%;
+    width: 80%;
     font-size: 36px;
     border-radius: 5px;
     cursor: pointer;
