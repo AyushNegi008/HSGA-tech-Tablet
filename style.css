@@ -237,18 +237,17 @@
 
 @media only screen and (max-width:1100px){
 
- .db{
+ .db {
     display: flex;
     flex-direction: row;
-    width: 350px;
-    height: 45px;
-    border-radius: 12px;
+    width: 550px;
+    height: 90px;
+    border-radius: 30px;
     background: black;
     position: fixed;
     margin-top: -54px;
-    margin-left: -360px;
-
- }
+    margin-left: -555px;
+}
  nav ul{
     display: flex;
     flex-direction: row;
@@ -256,7 +255,7 @@
     bottom: -1px;
     left: 0;
     width: 100%;
-    min-height: 53px;
+    min-height: 106px;
     margin: 0;
     border-radius:0
   }
@@ -278,6 +277,14 @@
     cursor: pointer;
     color: white;
   }
+  ul li a img {
+    width: 90px;
+    border-radius: 90px;
+    background: white;
+    margin-top: -12px;
+    object-fit: contain;
+    height: 90px;
+}
  .content{
     width: 100%;
  }
@@ -308,4 +315,88 @@
     width: 191.5%;
     overflow-x: auto;
 }
+.story {
+    height: 125px;
+    min-width: 125px;
+    border-radius: 124px;
+    background: black;
+    margin: 2px;
+    border: 3px solid #b9b9b9;
+    cursor: pointer;
 }
+
+
+
+.userphoto {
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    background: black;
+    margin: 2px;
+}
+.userphoto img {
+    border-radius: 100px;
+    height: 100px;
+    width: 100px;
+    cursor: pointer;
+    object-fit: contain;
+}
+.userinfo p {
+    margin-top: 75px;
+    font-size: 22px;
+}
+.box{
+    height: 106px;
+}
+.navbar{
+    height: 106px;
+}
+.logo img{
+    width: 70px;
+}
+.mess img {
+    width: 80px;
+    border-radius: 80px;
+    margin-top: 3px;
+}
+.post img {
+    width: 80px;
+    border-radius: 80px;
+    margin-top: 3px;
+    background: white;
+}
+.camera img {
+    width: 80px;
+    border-radius: 80px;
+    margin-top: 3px;
+    background: white;
+}
+.setting img {
+    width: 60px;
+    border-radius: 80px;
+    margin-top: 5px;
+}
+.like {
+    height: 60px;
+    width: 60px;
+    border-radius: 60px;
+    left: 0;
+    background: #ff0015;
+    cursor: pointer;
+}
+.share {
+    height: 60px;
+    width: 60px;
+    background: gray;
+    border-radius: 12px;
+    cursor: pointer;
+}
+input {
+    width: 90%;
+    font-size: 36px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+}
+
