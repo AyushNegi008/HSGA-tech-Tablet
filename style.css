@@ -4,6 +4,25 @@
  	box-sizing: border-box;;
 
  }
+
+
+ input,
+ textarea,
+ button,
+ select,
+ div,
+ img,
+ a{
+
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    
+ }
+ a:focus, a:visited,a:active{
+    outline: none;
+ }
+ *{
+    -webkit-tap-highlight-color: transparent;
+ }
  .navbar{
     display: flex;
     align-items: center;
@@ -373,13 +392,23 @@
     width: 350px;
     height: 400px;
     margin-left: 150px;
-    background: orange;
+    background: #f7f7f7;
     border-radius: 5px;
     transition: .5s;
     transition: all 0.5s ease-in;
     fill-opacity: 4;
     position: fixed;
+    border: 2px solid black;
 
+}
+.search input {
+    font-size: 25px;
+    text-align: center;
+    transition: 0.5s;
+    width: 80%;
+    /* margin: auto; */
+    margin-top: 1px;
+    margin-left: 10%;
 }
 .se{
     background: #ffffff;
@@ -392,6 +421,12 @@
     transition: .5s;
     transition: all 0.5s ease-in;
     margin-left: 190px;
+    border: 0px solid black;
+}
+.se input{
+    font-size: 0;
+    width: 0%;
+    border: 0px;
 }
 
 .order{
@@ -399,13 +434,19 @@
     width: 350px;
     height: 400px;
     margin-left: 150px;
-    background: black;
+    background: #f7f7f7;
     border-radius: 5px;
     transition: .5s;
     transition: all 0.5s ease-in;
     fill-opacity: 4;
     position: fixed;
+    border: 2px solid black;
 
+}
+.order p{
+    font-size:25px;
+    text-align:center;
+    transition: 0.5s;
 }
 .or{
     background: #ffffff;
@@ -418,6 +459,11 @@
     transition: .5s;
     transition: all 0.5s ease-in;
     margin-left: 279px;
+    border: 0px solid black;
+}
+.or p{
+    font-size:0px;
+    text-align:center;
 }
 
 .notification{
@@ -425,13 +471,19 @@
     width: 350px;
     height: 400px;
     margin-left: 150px;
-    background: green;
+    background: #f7f7f7;
     border-radius: 5px;
     transition: .5s;
     transition: all 0.5s ease-in;
     fill-opacity: 4;
     position: fixed;
+    border: 2px solid black;
 
+}
+.notification p{
+    font-size:25px;
+    text-align:center;
+    transition: 0.5s;
 }
 .no{
     background: #ffffff;
@@ -444,6 +496,12 @@
     transition: .5s;
     transition: all 0.5s ease-in;
     margin-left: 368px;
+    border: 0px solid black;
+}
+.no p{
+    font-size:0px;
+    text-align:center;
+
 }
 
 
@@ -689,30 +747,7 @@ input {
     width: 60px;
 }
 
-.search_{
-    width: 90px;
-    height: 90px;
-    background: #4a4545;
-    opacity: 0;
-    left: 25.5%;
-    margin: auto;
-}
-.order_{
-    width: 90px;
-    height: 90px;
-    background: #bf1010;
-    opacity: 0;
-    left: 45.5%;
-    margin: auto;
-}
-.notification_{
-    width: 90px;
-    height: 90px;
-    color: #37c912;
-    opacity: 0;
-    left: 65.5%;
-    margin: auto;
-}
+
 
 .search_:hover{
     width: 90px;
@@ -835,5 +870,65 @@ input {
     /* fill-opacity: 4; */
     opacity: .5;
     position: fixed;
+}
+.search_{
+    width: 90px;
+    height: 90px;
+    background: #4a4545;
+    opacity: 0;
+    left: 25.5%;
+    margin: auto;
+}
+.order_{
+    width: 90px;
+    height: 90px;
+    background: #bf1010;
+    opacity: 0;
+    left: 45.5%;
+    margin: auto;
+}
+.notification_{
+    width: 90px;
+    height: 90px;
+    color: #37c912;
+    opacity: 0;
+    left: 65.5%;
+    margin: auto;
+}
+.search input {
+    font-size: 55px;
+    text-align: center;
+    transition: 0.5s;
+    width: 80%;
+    /* margin: auto; */
+    margin-top: 5px;
+    margin-left: 10%;
+    border-radius: 17px;
+}
+.order p {
+    font-size: 55px;
+    text-align: center;
+    transition: 0.2s;
+}
+.notification p {
+    font-size: 55px;
+    text-align: center;
+    transition: 0.2s;
+}
+.se input {
+    font-size: 0;
+    width: 0%;
+    border: 0px;
+    
+}
+.or p {
+    font-size: 0px;
+    text-align: center;
+   
+}
+.no p {
+    font-size: 0px;
+    text-align: center;
+    
 }
 }
