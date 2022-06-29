@@ -527,6 +527,28 @@
 
 
 
+.accinfo{
+    width: 100%;
+
+}
+
+.accphoto {
+    width: 104px;
+    height: 104px;
+    border-radius: 104px;
+    background: black;
+    border: 2px solid black;
+}
+
+
+.accphoto img{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    object-fit: contain;
+}
+
+
 
 
 
@@ -637,11 +659,11 @@
     padding-left: 0px;
     padding-right: 0px;
  }
- .bleft{
+.bleft {
     width: 100%;
-    margin-top: 65px;
-
- }
+    margin-top: 55px;
+    min-height: 2000px;
+}
  .left{
     margin-left:0px;
     margin-right: 0px;
@@ -970,5 +992,29 @@ input {
     height: 1px;
     background: black;
     margin-top: 7px;
+}
+
+
+
+
+
+
+
+
+
+
+.accphoto {
+    width: 260px;
+    height: 260px;
+    border-radius: 250px;
+    background: black;
+    border: 5px solid black;
+    margin-left: 15px;
+}
+.accphoto img {
+    width: 250px;
+    height: 250px;
+    border-radius: 250px;
+    object-fit: contain;
 }
 }
