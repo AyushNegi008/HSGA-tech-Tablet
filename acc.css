@@ -210,6 +210,7 @@
     border: 1px solid;
     border-left: 0px;
     border-right: 0px;
+    border-bottom:0px;
  }
  .content{
     max-width: 1100px;
@@ -529,8 +530,9 @@
 
 
 .accinfo{
-    width: 100%;
+    width: 184%;
     display:flex;
+    margin-top: 2px;
 
 }
 
@@ -558,6 +560,118 @@
     text-align: center;
     margin: 30px;
     margin-left: 53px;
+}
+
+.about{
+    margin-top:20px;
+    margin-left: 3px;
+    font-size:18px;
+    width:183%;
+}
+.link{
+    color: blue;
+    margin-left: 0px;
+
+}
+.exp{
+    display: flex;
+    flex-direction:row;
+}
+.we{
+    width: 85px;
+    text-align:center;
+    margin: 10px 20px 10px 10px;
+    font-size: 18px;
+}
+.pd{
+    width: 85px;
+    text-align:center;
+    margin:10px 10px 10px 20px;
+    font-size: 18px;
+}
+.rating{
+    display: flex;
+    width: 184%;
+}
+.rat{
+    font-size:25px;
+    margin-right: 20px;
+
+}
+.ra{
+    margin-right: 20px;
+    margin-top: 2px;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 7px;
+}
+.nr{
+    margin-right: 20px;
+    margin-top: 2px;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 7px;
+}
+.hr{
+    width: 108%;
+}
+.R{
+    display: flex;
+    font-size:20px;
+}
+.r{
+    border: 2px solid black;
+    padding: 2px 8px 2px 8px;
+    border-radius: 70px;
+}
+.n{
+    margin-top:4px;
+    margin-left: auto;
+}
+.bhl {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    overflow-x: auto;
+ }
+ .hl {
+    height: 100px;
+    min-width: 100px;
+    border-radius: 100px;
+    background: black;
+    margin: 2px;
+    border: 3px solid #b9b9b9;
+    cursor: pointer;
+ }
+.all{
+    width: 100%;
+    height: 100px;
+    background: #e5e5e5;
+}
+
+.bar{
+    width: 100%;
+    height: 50px;
+    background: black;
+}
+.collections{
+    margin-top: 5px;
+    background: #e5e5e5;
+}
+.line{
+    display:flex;
+    margin-left: 5px;
+}
+.line .img{
+    border: 2px solid gray;
+    width: 33%;
+    height: 172px;
+    
+}
+.line img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
 
 
@@ -1056,5 +1170,103 @@ input {
     font-size: 55px;
     text-align: center;
     margin: 65px;
+}
+
+.about {
+    margin-top: 56px;
+    margin-left: 20px;
+    font-size: 45px;
+    width:191%;
+}
+.we {
+    width: 210px;
+    text-align: center;
+    margin: 40px;
+    font-size: 45px;
+}
+.pd {
+    width: 210px;
+    text-align: center;
+    margin: 40px;
+    font-size: 45px;
+}
+
+.rat {
+    font-size: 50px;
+    margin-right: 33px;
+    margin-left: 12px;
+}
+.ra {
+    margin-right: 30px;
+    margin-top: 2px;
+    font-size: 42px;
+    border: 5px solid black;
+    border-radius: 10px;
+}
+.nr {
+    margin-right: 20px;
+    margin-top: 2px;
+    font-size: 42px;
+        border: 5px solid black;
+    border-radius: 10px;
+}
+.r {
+    border: 4px solid black;
+    padding: 2px 16px 2px 16px;
+    border-radius: 75px;
+    margin-left: 10px;
+}
+.R {
+    display: flex;
+    font-size: 48px;
+}
+.n {
+    margin-top: 5px;
+    margin-left: auto;
+}
+
+.bhl {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    overflow-x: auto;
+}
+.hl {
+    height: 250px;
+    min-width: 250px;
+    border-radius: 250px;
+    background: black;
+    margin: 2px;
+    border: 11px solid #b9b9b9;
+    cursor: pointer;
+}
+.all{
+    width: 100%;
+    height: 100px;
+    background: #e5e5e5;
+}
+
+.bar{
+    width: 100%;
+    height: 100px;
+    background: black;
+}
+.collections{
+    margin-top: 5px;
+    background: #e5e5e5;
+}
+.line{
+    display:flex;
+}
+.line .img{
+    border: 2px solid gray;
+    width: 33%;
+    height: 321px;
+}
+.line img{
+    width: 100%;
+    height:100%
+    object-fit: contain;
+
 }
 }
