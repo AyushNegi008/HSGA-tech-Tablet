@@ -589,9 +589,14 @@
     margin:10px 10px 10px 20px;
     font-size: 18px;
 }
+.brating{
+    width: 184%;
+    border-radius: 10px;
+    background: #ebebeb;
+}
 .rating{
     display: flex;
-    width: 184%;
+    width: 100%;
 }
 .rat{
     font-size:25px;
@@ -618,6 +623,7 @@
 .R{
     display: flex;
     font-size:20px;
+    margin: 2px;
 }
 .r{
     border: 2px solid black;
@@ -633,6 +639,7 @@
     flex-direction: row;
     width: 100%;
     overflow-x: auto;
+    background: #efefef;
  }
  .hl {
     height: 100px;
@@ -1175,22 +1182,29 @@ input {
 .about {
     margin-top: 56px;
     margin-left: 20px;
-    font-size: 45px;
+    font-size: 25px;
     width:191%;
 }
 .we {
-    width: 210px;
+    width: 185px;
     text-align: center;
     margin: 40px;
-    font-size: 45px;
+    font-size: 40px;
 }
 .pd {
-    width: 210px;
+    width: 185px;
     text-align: center;
     margin: 40px;
-    font-size: 45px;
+    font-size: 40px;
 }
-
+.brating{
+    width: 192%;
+    margin-left: 20px;
+}
+.rating{
+    width:100%
+    display: flex;
+}
 .rat {
     font-size: 50px;
     margin-right: 33px;
@@ -1232,9 +1246,9 @@ input {
     overflow-x: auto;
 }
 .hl {
-    height: 250px;
-    min-width: 250px;
-    border-radius: 250px;
+    height: 200px;
+    min-width: 200px;
+    border-radius: 200px;
     background: black;
     margin: 2px;
     border: 11px solid #b9b9b9;
@@ -1268,5 +1282,8 @@ input {
     height:100%
     object-fit: contain;
 
+}
+.hr{
+    width: 0px;
 }
 }
