@@ -579,15 +579,29 @@
 }
 .we{
     width: 85px;
-    text-align:center;
-    margin: 10px 20px 10px 10px;
+    text-align: center;
+    margin: 10px 10px 10px 20px;
     font-size: 18px;
+    width: 208px;
+    text-align: center;
+    margin: 10px;
+    padding: 5px 10px 5px 10px;
+    /* font-size: 40px; */
+    border: 2px solid;
+    border-radius: 15px;
 }
 .pd{
     width: 85px;
-    text-align:center;
-    margin:10px 10px 10px 20px;
+    text-align: center;
+    margin: 10px 10px 10px 20px;
     font-size: 18px;
+    width: 208px;
+    text-align: center;
+    margin: 10px;
+    padding: 5px 10px 5px 10px;
+    /* font-size: 40px; */
+    border: 2px solid;
+    border-radius: 15px;
 }
 .brating{
     width: 184%;
@@ -662,6 +676,7 @@
     width: 100%;
     height: 45px;
     background: black;
+    display: flex;
 }
 .collections{
     margin-top: 5px;
@@ -682,10 +697,22 @@
     height: 100%;
     object-fit: contain;
 }
+.p{
+    width: 33%;
+}
+.v{
+    width:33%;
+}
+.t{
+    width:33%;
+}
+.l img {
+    width: 45px;
+    height: 45px;
+    margin-left: 39%;
+    background: black;
 
-
-
-
+}
 
 
 
@@ -1188,16 +1215,22 @@ input {
     width:191%;
 }
 .we {
-    width: 185px;
+    width: 208px;
     text-align: center;
-    margin: 40px;
+    margin: 30px;
+    padding: 10px;
     font-size: 40px;
+    border: 2px solid;
+    border-radius: 20px;
 }
 .pd {
-    width: 185px;
+    width: 208px;
     text-align: center;
-    margin: 40px;
+    margin: 30px;
+    padding: 10px;
     font-size: 40px;
+    border: 2px solid;
+    border-radius: 20px;
 }
 .brating{
     width: 192%;
@@ -1292,5 +1325,10 @@ input {
 }
 .hr{
     width: 0px;
+}
+.l img {
+    width: 100px;
+    height: 100px;
+    margin-left: 35%;
 }
 }
