@@ -617,8 +617,9 @@
     border: 2px solid black;
     border-radius: 7px;
 }
-.hr{
-    width: 108%;
+.hr {
+    width: 175%;
+    margin-left: 15px;
 }
 .R{
     display: flex;
@@ -657,8 +658,9 @@
 }
 
 .bar{
+    border-radius: 5px;
     width: 100%;
-    height: 50px;
+    height: 45px;
     background: black;
 }
 .collections{
@@ -1182,7 +1184,7 @@ input {
 .about {
     margin-top: 56px;
     margin-left: 20px;
-    font-size: 25px;
+    font-size: 27px;
     width:191%;
 }
 .we {
@@ -1212,16 +1214,20 @@ input {
 }
 .ra {
     margin-right: 30px;
+    position: absolute;
+    right: 365px;
     margin-top: 2px;
     font-size: 42px;
     border: 5px solid black;
     border-radius: 10px;
+    z-index: 1;
 }
 .nr {
-    margin-right: 20px;
     margin-top: 2px;
+    position: absolute;
+    right: 5px;
     font-size: 42px;
-        border: 5px solid black;
+    border: 5px solid black;
     border-radius: 10px;
 }
 .r {
@@ -1261,6 +1267,7 @@ input {
 }
 
 .bar{
+    border-radius: 0px;
     width: 100%;
     height: 100px;
     background: black;
