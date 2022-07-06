@@ -58,3 +58,28 @@ notification_.addEventListener('click',()=>{
 
 })
 
+
+
+
+cb1 = document.querySelector('.cb1')
+cb2= document.querySelector('.cb2')
+cli= document.querySelector('.cli')
+clients= document.querySelector('.clients')
+
+cb2.addEventListener('click',()=>{
+    cb2.classList.toggle('cb1');
+    clients.classList.toggle('cli');
+
+})
+
+
+fb1 = document.querySelector('.fb1')
+fb2= document.querySelector('.fb2')
+foll= document.querySelector('.foll')
+followers= document.querySelector('.followers')
+
+fb2.addEventListener('click',()=>{
+    fb2.classList.toggle('fb1');
+    followers.classList.toggle('foll');
+
+})
