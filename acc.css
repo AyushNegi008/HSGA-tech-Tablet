@@ -38,6 +38,7 @@
     position: fixed;
     border-right: 0px;
     background: white;
+    z-index: 3;
 
  }
  nav{
@@ -195,6 +196,7 @@
  .logo{
     cursor: pointer;
     margin-left: 0px;
+    
  }
  .box{
     max-width: 1100px;
@@ -205,6 +207,7 @@
     align-items: center;
     justify-content: center;
     justify-items: center;
+    z-index: 5;
 }
  .cm{
     border: 1px solid;
@@ -248,6 +251,7 @@
     position: fixed;
     margin-left: 150px;
     margin-top: 1px;
+
 }
  .dbu{
     margin: auto;
@@ -401,6 +405,7 @@
     fill-opacity: 4;
     position: fixed;
     border: 2px solid black;
+    z-index: 100;
 
 }
 .search input {
@@ -450,6 +455,7 @@
     fill-opacity: 4;
     position: fixed;
     border: 2px solid black;
+    z-index: 100;
 
 }
 .order p{
@@ -493,6 +499,7 @@
     fill-opacity: 4;
     position: fixed;
     border: 2px solid black;
+    z-index: 100;
 
 }
 .notification p{
@@ -623,6 +630,7 @@
     font-size: 20px;
     border: 2px solid black;
     border-radius: 7px;
+    z-index: 0;
 }
 .nr{
     margin-right: 20px;
@@ -630,6 +638,7 @@
     font-size: 20px;
     border: 2px solid black;
     border-radius: 7px;
+    z-index: 0;
 }
 .hr {
     width: 175%;
@@ -708,6 +717,9 @@
 .t{
     width:33%;
 }
+.l{
+    cursor: pointer;
+}
 .l img {
     width: 35px;
     height: 35px;
@@ -715,7 +727,9 @@
     background: black;
     margin-top: 5px;
 }
-
+ .img img{
+    cursor:pointer;
+ }
 
 
 
@@ -776,6 +790,7 @@
     position: fixed;
     margin-top: -54px;
     margin-left: -555px;
+    z-index: 10;
 }
  nav ul{
     display: flex;
@@ -1193,6 +1208,7 @@ input {
     background: black;
     border: 5px solid black;
     margin-left: 15px;
+    margin-right: 15px;
 }
 .accphoto img {
     width: 250px;
@@ -1264,7 +1280,7 @@ input {
     font-size: 42px;
     border: 5px solid black;
     border-radius: 10px;
-    z-index: 1;
+    z-index: 0;
 }
 .nr {
     margin-top: 2px;
