@@ -1207,10 +1207,18 @@ input {
 .info {
     font-size: 55px;
     text-align: center;
-    margin: 40px;
-    margin-top: 62px;
+    margin: 44px;
+    margin-top: 65px;
 }
-
+.pnu2{
+    font-size: 45px;
+}
+.cnu2{
+    font-size: 45px;
+}
+.spfu2{
+    font-size: 45px;
+}
 .about {
     margin-top: 56px;
     margin-left: 20px;
