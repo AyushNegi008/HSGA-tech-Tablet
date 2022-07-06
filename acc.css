@@ -559,7 +559,7 @@
     font-size: 21px;
     text-align: center;
     margin: 30px;
-    margin-left: 53px;
+    margin-left: 35px;
 }
 
 .about{
@@ -677,10 +677,12 @@
     height: 45px;
     background: black;
     display: flex;
+        margin-bottom: 5px;
 }
 .collections{
-    margin-top: 5px;
+    margin-top: 0px;
     background: #e5e5e5;
+
 }
 .line{
     display:flex;
@@ -707,11 +709,11 @@
     width:33%;
 }
 .l img {
-    width: 45px;
-    height: 45px;
-    margin-left: 39%;
+    width: 35px;
+    height: 35px;
+    margin-left: 43%;
     background: black;
-
+    margin-top: 5px;
 }
 
 
@@ -1202,10 +1204,11 @@ input {
     font-size:53px;
     
 }
-.info{
+.info {
     font-size: 55px;
     text-align: center;
-    margin: 65px;
+    margin: 40px;
+    margin-top: 62px;
 }
 
 .about {
@@ -1215,7 +1218,7 @@ input {
     width:191%;
 }
 .we {
-    width: 208px;
+    width: 220px;
     text-align: center;
     margin: 30px;
     padding: 10px;
@@ -1224,7 +1227,7 @@ input {
     border-radius: 20px;
 }
 .pd {
-    width: 208px;
+    width: 220px;
     text-align: center;
     margin: 30px;
     padding: 10px;
@@ -1304,9 +1307,11 @@ input {
     width: 100%;
     height: 100px;
     background: black;
+    margin-bottom: 1px;
+    margin-top:30px;
 }
 .collections{
-    margin-top: 5px;
+    margin-top: 0px;
     background: #e5e5e5;
 }
 .line{
@@ -1327,8 +1332,9 @@ input {
     width: 0px;
 }
 .l img {
-    width: 100px;
-    height: 100px;
-    margin-left: 35%;
+    width: 80px;
+    height: 80px;
+    margin-left: 39%;
+    margin-top: 10px;
 }
 }
