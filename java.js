@@ -73,6 +73,9 @@ cb2.addEventListener('click',()=>{
 })
 
 
+
+
+
 fb1 = document.querySelector('.fb1')
 fb2= document.querySelector('.fb2')
 foll= document.querySelector('.foll')
@@ -81,5 +84,19 @@ followers= document.querySelector('.followers')
 fb2.addEventListener('click',()=>{
     fb2.classList.toggle('fb1');
     followers.classList.toggle('foll');
+
+})
+
+
+
+
+op = document.querySelector('.op')
+opp= document.querySelector('.opp')
+pup= document.querySelector('.pup')
+popup= document.querySelector('.popup')
+
+opp.addEventListener('click',()=>{
+    popup.classList.toggle('pup');
+    opp.classList.toggle('op');
 
 })
