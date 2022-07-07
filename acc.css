@@ -791,7 +791,7 @@
     height: 100%;
     z-index: 101;
     background: black;
-    opacity: 0.2;
+    opacity: 0.4;
     position: fixed;
     left: 0;
     margin: 0;
@@ -809,7 +809,7 @@
     height: 100%;
     z-index: 101;
     background: black;
-    opacity: 0.2;
+    opacity: 0.4;
     position: fixed;
     left: 0;
     margin: 0;
@@ -843,8 +843,104 @@
 }
 .ub{
     overflow-y: auto;
-    height:298px;
+    height:300px;
 }
+.f{
+    height:8%;
+}
+.opp {
+    width: 100%;
+    height: 100%;
+    z-index: 101;
+    background: black;
+    opacity: 0.4;
+    position: fixed;
+    border-radius: 0px;
+    left: 0;
+    margin: 0;
+    top: 0;
+}
+
+.op {
+    width: 104px;
+    height: 104px;
+    border-radius: 104px;
+    background: white;
+    border: 2px solid black;
+    cursor: pointer;
+    margin-top: 64px;
+    margin-left: 189px;
+    opacity:0;
+    position: absolute;
+    z-index:1;
+}
+.popup {
+    height: 30%;
+    width: 35%;
+    left: 32.5%;
+    margin-top: -21px;
+    background: white;
+    position: fixed;
+    border-radius: 15px;
+    border: 2px solid;
+    z-index: 102;
+  
+}
+.pup{
+    height: 0px;
+    width: 0px;
+    font-size:0px;
+    margin-left: -215px;
+    border: 0px solid;
+}
+
+.popup .o {
+    /* height: 33%; */
+    font-size: 27px;
+    padding: 5px 15px 5px 15px;
+    text-align: center;
+    color: blue;
+}
+.popup .oo{
+    text-align:center;
+    font-size:30px;
+}
+.pup .o{
+    font-size:0px;
+
+}
+.pup .oo{
+    font-size:0px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1512,7 +1608,7 @@ input {
     margin-top: 0px;
     width: 80%;
     height: 50%;
-    margin-left: -62%;
+    margin-left: -64%;
     background: #ffffff;
     border-radius: 25px;
     transition: .5s;
@@ -1555,7 +1651,7 @@ input {
 
 .ub {
     overflow-y: auto;
-    height: 720px;
+    height: 84%;
 }
 .followers .u {
     font-size: 45px;
@@ -1573,4 +1669,46 @@ input {
 .cli .u {
     font-size: 0px;
 }
+.f{
+    height: 15%;
+}
+.popup {
+    height: 435px;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    margin-top: -21px;
+    background: white;
+    position: fixed;
+    border-radius: 23px 23px 0px 0px;
+    border: 2px solid;
+    z-index: 102;
+}
+.pup{
+    height: 0;
+    width: 0;
+}
+.popup .oo {
+    text-align: center;
+    font-size: 60px;
+}
+.popup .o {
+    /* height: 33%; */
+    font-size: 50px;
+    padding: 5px 15px 5px 15px;
+    text-align: center;
+    color: blue;
+}
+.op {
+    width: 260px;
+    height: 260px;
+    border-radius: 250px;
+    background: black;
+    border: 5px solid black;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 120px;
+    opacity: 0;
+}
+
 }
