@@ -72,7 +72,12 @@ nav a{
 	margin-bottom:2px;
 	cursor:pointer
 }
-
+.di {
+    height: 25px;
+    margin-top: 7px;
+    width: 75px;
+    font-size: 16px;
+}
 
 
 
@@ -120,4 +125,51 @@ nav a{
 }
 
 
- }
+
+.se {
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 60px;
+    margin-bottom: 2px;
+    cursor: pointer;
+}
+.switch {
+    margin-top: 150px;
+    color: blue;
+}
+nav {
+    width: 100%;
+    height: 74px;
+    background: #f7f7f7;
+    border-bottom: 2px solid black;
+    text-align: center;
+    display: flex;
+    position: fixed;
+}
+.back {
+    margin-left: 0%;
+    font-size: 67px;
+    display: flex;
+}
+.di {
+    height: 66px;
+    margin-top: 2px;
+    width: 229px;
+    font-size: 50px;
+   
+}
+
+
+.set {
+    font-size: 105px;
+    text-align: center;
+    margin-top: 0px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 70px;
+}
+
+
+
+
+}
