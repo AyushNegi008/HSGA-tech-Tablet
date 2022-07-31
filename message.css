@@ -83,10 +83,13 @@
  nav ul li {
     display: inline-block;
     margin:20px;
-
-
-
  }
+
+ .un {
+    font-size: 25px;
+    margin-left: 15px;
+    margin-top: 8px;
+}
  .search_s{
     width: 0px;
     height: 45px;
@@ -477,8 +480,8 @@
 
 
 hr{
-    color: black;
-    background: black;
+
+    background: gray;
     height: 1px; 
     width: 80%;
     margin-left: 16%;
@@ -1346,7 +1349,7 @@ input {
     width: 100%;
     margin-left: 0%;
     height: 1%;
-    margin-top: 201px;
+    margin-top: 200px;
     /* overflow-y: auto; */
 }
 .u {
@@ -1501,5 +1504,10 @@ input {
     /* border: 0; */
     margin-left: 1%;
     /* background: white; */
+}
+.un {
+    font-size: 60px;
+    margin-left: 20px;
+    margin-top: 5px;
 }
 }
