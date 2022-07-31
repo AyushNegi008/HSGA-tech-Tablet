@@ -461,10 +461,12 @@
 }
 .pt1{
     font-size: 25px;
+    color: black;
 }
 .pt2 {
     font-size: 17px;
     margin-top: -25px;
+    color: black;
 }
 .pu img{
     object-fit: contain;
