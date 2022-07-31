@@ -1362,6 +1362,20 @@ input {
     /* padding: 5px; */
     margin-left: 20px;
 }
+.u:hover {
+    display: flex;
+    flex-direction: row;
+    font-size: 22px;
+    border: 0px solid;
+    height: 180px;
+    margin-top: 0px;
+    /* justify-content: center; */
+    align-items: center;
+    border-radius: 1px;
+    /* padding: 5px; */
+    margin-left: 20px;
+    background: #e4e7e9;
+}
 .pu {
     border-radius: 150px;
     height: 150px;
