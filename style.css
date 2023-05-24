@@ -97,12 +97,15 @@ center{
 .time{
     margin-left: 7px;
     width: 65px;
-    height: 15px;
+    height: 17px;
     left: 1385px;
     color: #fff9f2;
     font-size: 15px;
     font-family: sans-serif;
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .p{
     margin-left: 10px;    
@@ -203,7 +206,7 @@ center{
     width: 35px;
     height: 35px;
     margin-left: 9px;
-
+    transition: .1s;
 
     
 }
@@ -219,6 +222,7 @@ width: 35px;
 height: 35px;
 left: 59px;
 margin-left: 18px;
+transition: .1s;
 }
 .setting:hover{
     background: black;
@@ -233,6 +237,7 @@ width: 35px;
 height: 35px;
 left: 112px;
 margin-left: 18px;
+transition: .1s;
 
 }
 .alogo:hover{
@@ -247,6 +252,7 @@ width: 35px;
 height: 35px;
 left: 162px;
 margin-left: 18px;
+transition: .1s;
 
 }
 .monster:hover{
@@ -261,6 +267,8 @@ width: 35px;
 height: 35px;
 left: 216px;
 margin-left: 18px;
+transition: .1s;
+
 }
 .code:hover{
     background: black;
@@ -277,6 +285,7 @@ top: 4px;
 
 border-radius: 29px;
 margin-left: 18px;
+transition: .1s;
 
 }
 .file:hover{
@@ -300,6 +309,7 @@ margin-left: 18px;
     height: 35px;
     left: 321px;
     margin-left: 18px;
+    transition: .1s;
 
 
 }
@@ -320,6 +330,7 @@ margin-left: 18px;
     height: 35px;
     left: 380px;
     margin-left: 18px;
+    transition: .1s;
 
     
 }
@@ -335,6 +346,7 @@ margin-left: 18px;
     height: 35px;
     left: 433px;
     margin-left: 18px;
+    transition: .1s;
 
     
 
@@ -353,6 +365,7 @@ margin-left: 18px;
     margin-left: 18px;
     top: 4px;
     margin-right: 9px;
+    transition: .1s;
     
 }
 .calender:hover{
@@ -367,9 +380,9 @@ margin-left: 18px;
 .terin{
     position: absolute;
     box-sizing: border-box;
-    left: 365px;
+    left: 23.5%;
     top: 10vh;
-    width: 800px;
+    width: 53%;
     height: 80vh;
     background: rgba(36, 36, 36, 0.33);
     opacity: 0.99;
@@ -387,10 +400,11 @@ margin-left: 18px;
 .ter{
     position: absolute;
     box-sizing: border-box;
-    left: 847px;
-    width: 2px;
-    top: 97vh;
-    height: 2px;
+    left: 50%;
+    width: 0px;
+    top: 99vh;
+    height: 0px;
+    margin-left: 74px;
     background: rgba(220, 220, 220, 0.33);
     opacity: 0.99;
     border-width: 0;
@@ -471,9 +485,9 @@ margin-left: 18px;
     position: absolute;
     box-sizing: border-box;
     padding: 20px;
-    left: 365px;
+    left: 23.5%;
     top: 10vh;
-    width: 800px;
+    width: 53%;
     height: 80vh;
     background: rgba(36, 36, 36, 0.33);
     opacity: 0.99;
@@ -498,10 +512,11 @@ margin-left: 18px;
     position: absolute;
     box-sizing: border-box;
     padding: 0;
-    left: 530px;
-    width: 2px;
-    top: 97vh;
-    height: 2px;
+    left: 50%;
+    margin-left: -240px;
+    width: 0px;
+    top: 99vh;
+    height: 0px;
     background: rgba(220, 220, 220, 0.33);
     opacity: 0.99;
     border-width: 0;
@@ -1043,9 +1058,9 @@ margin-left: 18px;
 .sett{
     position: absolute;
     box-sizing: border-box;
-    left: 365px;
+    left: 23.5%;
     top: 10vh;
-    width: 800px;
+    width: 53%;
     height: 80vh;
     background: rgba(36, 36, 36, 0.33);
     opacity: 0.99;
@@ -1063,10 +1078,11 @@ margin-left: 18px;
 .set{
     position: absolute;
     box-sizing: border-box;
-    left: 588px;
-    width: 2px;
-    top: 97vh;
-    height: 2px;
+    left: 50%;
+    width: 0px;
+    top: 99vh;
+    height: 0px;
+    margin-left: -195px;
     background: rgba(220, 220, 220, 0.33);
     opacity: 0.99;
     border-width: 0;
@@ -1085,9 +1101,9 @@ margin-left: 18px;
 .terminal{
     position: absolute;
     box-sizing: border-box;
-    left: 365px;
+    left: 23.5%;
     top: 10vh;
-    width: 800px;
+    width: 53%;
     height: 80vh;
     background: rgba(36, 36, 36, 0.33);
     opacity: 0.99;
@@ -1105,10 +1121,11 @@ margin-left: 18px;
 .term{
     position: absolute;
     box-sizing: border-box;
-    left: 800px;
-    width: 2px;
-    top: 97vh;
-    height: 2px;
+    left: 50%;
+    width: 0px;
+    top: 99vh;
+    height: 0px;
+    margin-left: 21px;
     background: rgba(220, 220, 220, 0.33);
     opacity: 0.99;
     border-width: 0;
@@ -1127,9 +1144,9 @@ margin-left: 18px;
 .musi{
     position: absolute;
     box-sizing: border-box;
-    left: 365px;
+    left: 23.5%;
     top: 10vh;
-    width: 800px;
+    width: 53%;
     height: 80vh;
     background: rgba(36, 36, 36, 0.33);
     opacity: 0.99;
@@ -1147,10 +1164,11 @@ margin-left: 18px;
 .mus{
     position: absolute;
     box-sizing: border-box;
-    left: 958px;
-    width: 2px;
-    top: 97vh;
-    height: 2px;
+    left: 50%;
+    width: 0px;
+    top: 99vh;
+    height: 0px;
+    margin-left: 180px;
     background: rgba(220, 220, 220, 0.33);
     opacity: 0.99;
     border-width: 0;
@@ -1168,9 +1186,9 @@ margin-left: 18px;
 .camer{
     position: absolute;
     box-sizing: border-box;
-    left: 365px;
+    left: 23.5%;
     top: 10vh;
-    width: 800px;
+    width: 53%;
     height: 80vh;
     background: rgba(36, 36, 36, 0.33);
     opacity: 0.99;
@@ -1188,10 +1206,11 @@ margin-left: 18px;
 .cam{
     position: absolute;
     box-sizing: border-box;
-    left: 903px;
-    width: 2px;
-    top: 97vh;
-    height: 2px;
+    left: 50%;
+    width: 0px;
+    top: 99vh;
+    height: 0px;
+    margin-left: 127px;
     background: rgba(220, 220, 220, 0.33);
     opacity: 0.99;
     border-width: 0;
@@ -1209,9 +1228,9 @@ margin-left: 18px;
 .cod{
     position: absolute;
     box-sizing: border-box;
-    left: 365px;
+    left: 23.5%;
     top: 10vh;
-    width: 800px;
+    width: 53%;
     height: 80vh;
     background: rgba(36, 36, 36, 0.33);
     opacity: 0.99;
@@ -1229,10 +1248,11 @@ margin-left: 18px;
 .co{
     position: absolute;
     box-sizing: border-box;
-    left: 745px;
-    width: 2px;
-    top: 97vh;
-    height: 2px;
+    left: 50%;
+    width: 0px;
+    top: 99vh;
+    height: 0px;
+    margin-left: -34px;
     background: rgba(220, 220, 220, 0.33);
     opacity: 0.99;
     border-width: 0;
@@ -1251,9 +1271,9 @@ margin-left: 18px;
 .angular{
     position: absolute;
     box-sizing: border-box;
-    left: 365px;
+    left: 23.5%;
     top: 10vh;
-    width: 800px;
+    width: 53%;
     height: 80vh;
     background: rgba(36, 36, 36, 0.33);
     opacity: 0.99;
@@ -1271,10 +1291,11 @@ margin-left: 18px;
 .angu{
     position: absolute;
     box-sizing: border-box;
-    left: 637px;
-    width: 2px;
-    top: 97vh;
-    height: 2px;
+    left: 50%;
+    width: 0px;
+    top: 99vh;
+    height: 0px;
+    margin-left: -142px;
     background: rgba(220, 220, 220, 0.33);
     opacity: 0.99;
     border-width: 0;
@@ -1322,3 +1343,4 @@ margin-left: 18px;
     max-height: 100vh;
     height: unset;
 }
+
