@@ -1367,6 +1367,7 @@ transition: .1s;
         overflow: auto;
         left: 0;
         right: 170px;
+        overflow-y: hidden;
     }
     .abar::-webkit-scrollbar {
         display: none;
@@ -1425,6 +1426,15 @@ transition: .1s;
     .lnav::-webkit-scrollbar {
         display: none;
     }
+    .max{
+        left: auto;
+        width: 100%;
+        right: 0;
+        bottom: 41px;
+        top: 30px;
+        max-height: 100vh;
+        height: unset;
+    }
     .cod {
         
         left: 15%;
@@ -1477,6 +1487,10 @@ transition: .1s;
         width: 0;
         height:0;
     };
+    
+    
+    
+    
     .terminal{
         left: 15%;
         top: 13vh;
@@ -1505,14 +1519,5 @@ transition: .1s;
     .men{
         width: 0;
         height: 0;
-    }
-    .max{
-        left: auto;
-        width: 100%;
-        right: 0;
-        bottom: 41px;
-        top: 30px;
-        max-height: 100vh;
-        height: unset;
     }
 }
