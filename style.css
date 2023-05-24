@@ -1506,4 +1506,13 @@ transition: .1s;
         width: 0;
         height: 0;
     }
+    .max{
+        left: auto;
+        width: 100%;
+        right: 0;
+        bottom: 41px;
+        top: 30px;
+        max-height: 100vh;
+        height: unset;
+    }
 }
