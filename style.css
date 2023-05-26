@@ -1440,6 +1440,7 @@ transition: .1s;
         left: 0;
         right: 121px;
         overflow-y: hidden;
+        justify-content: flex-start;
     }
     .abar::-webkit-scrollbar {
         display: none;
@@ -1550,11 +1551,23 @@ transition: .1s;
     .ter{
         width: 0;
         height:0;
-    };
+    }
     
     
     
     
+    
+    
+    .menue {
+        left: 2%;
+        top: 13vh;
+        width: 96%;
+        height: 64vh;
+    }
+    .men{
+        width: 0;
+        height: 0;
+    }
     .terminal{
         left: 10%;
         top: 13vh;
@@ -1573,16 +1586,6 @@ transition: .1s;
     }
     .set{
         width: 0;
-    }
-    .menue {
-        left: 2%;
-        top: 13vh;
-        width: 96%;
-        height: 64vh;
-    }
-    .men{
-        width: 0;
-        height: 0;
     }
     /*
     .file{
@@ -1652,6 +1655,39 @@ transition: .1s;
     .extra.ebg{
         display: flex;
         flex-direction: column;
+    }
+
+    .men{
+        left: 70%;
+        top: 90vh;
+    }
+    .set{
+        left: 0;
+        top: 90vh;
+    }
+    .term{
+        left: 0;
+        top: 90vh;
+    }
+    .ter{
+        left: 0;
+        top: 90vh;
+    }
+    .mus{
+        left: 0;
+        top: 90vh;
+    }
+    .cam{
+        left: 0;
+        top: 90vh;
+    }
+    .angu{
+        left: 0;
+        top: 90vh;
+    }
+    .co{
+        left: 0;
+        top: 90vh;
     }
 }
 
