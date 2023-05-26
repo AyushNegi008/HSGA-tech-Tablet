@@ -1343,6 +1343,78 @@ transition: .1s;
     max-height: 100vh;
     height: unset;
 }
+.extra.ebg img {
+    display: none;
+}
+.ddmenu{
+    position: absolute;
+}
+.ddfile{
+    position: absolute;
+}
+.ddedit{
+    position: absolute;
+}
+.ddbook{
+    position: absolute;
+}
+.ddview{
+    position: absolute;
+}
+.ddhelp{
+    position: absolute;
+}
+.ddset{
+    position: absolute;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media only screen and (max-width:700px){
 
@@ -1512,6 +1584,7 @@ transition: .1s;
         width: 0;
         height: 0;
     }
+    /*
     .file{
         display: none;
     }
@@ -1527,7 +1600,7 @@ transition: .1s;
     .calender{
         display: none;
     }
-
+*/
     .max{
         left: auto;
         width: 100%;
@@ -1536,6 +1609,49 @@ transition: .1s;
         top: 30px;
         max-height: 100vh;
         height: unset;
+    }
+    .ddfile img{
+        margin-left: 0;
+        background: rgb(22 28 60 / 95%);
+    }
+    .ddedit img{
+        margin-left: 0;
+        background: rgb(22 28 60 / 95%);
+    }
+    .ddview img{
+        margin-left: 0;
+        background: rgb(22 28 60 / 95%);
+    }
+    .ddhelp img{
+        margin-left: 0;
+        background: rgb(22 28 60 / 95%);
+    }
+    .ddbook img{
+        margin-left: 0;
+        background: rgb(22 28 60 / 95%);
+    }
+    .ddset img{
+        margin-left: 0;
+        background: rgb(22 28 60 / 95%);
+    }
+    .ddmenu img {
+        height: 470px;
+        margin-left: 0;
+        border-radius: 5px;
+        width: 100%;
+        background: none;
+    }
+    .ddm img{
+        width: 0;
+    }
+    .extra.ebg img {
+        display: unset;
+        width: 50px;
+        margin: 8px;
+    }
+    .extra.ebg{
+        display: flex;
+        flex-direction: column;
     }
 }
 
