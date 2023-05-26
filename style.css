@@ -1366,14 +1366,14 @@ transition: .1s;
         align-items: center;
         overflow: auto;
         left: 0;
-        right: 170px;
+        right: 121px;
         overflow-y: hidden;
     }
     .abar::-webkit-scrollbar {
         display: none;
     }
     center {
-        position: absolute;
+        position: fixed;
         bottom: 0;
         width: 100%;
         display: flex;
@@ -1426,20 +1426,12 @@ transition: .1s;
     .lnav::-webkit-scrollbar {
         display: none;
     }
-    .max{
-        left: auto;
-        width: 100%;
-        right: 0;
-        bottom: 41px;
-        top: 30px;
-        max-height: 100vh;
-        height: unset;
-    }
+    
     .cod {
         
-        left: 15%;
+        left: 10%;
         top: 13vh;
-        width: 70%;
+        width: 80%;
         height: 64vh;
         
     }
@@ -1448,9 +1440,9 @@ transition: .1s;
         height: 0;
     }
     .angular{
-        left: 15%;
+        left: 10%;
         top: 13vh;
-        width: 70%;
+        width: 80%;
         height: 64vh;
     }
     .angu{
@@ -1458,9 +1450,9 @@ transition: .1s;
         height: 0;
     }
     .camer{
-        left: 15%;
+        left: 10%;
         top: 13vh;
-        width: 70%;
+        width: 80%;
         height: 64vh;
     }
     .cam{
@@ -1468,9 +1460,9 @@ transition: .1s;
         height: 0;
     }
     .musi{
-        left: 15%;
+        left: 10%;
         top: 13vh;
-        width: 70%;
+        width: 80%;
         height: 64vh;
     }
     .mus{
@@ -1478,9 +1470,9 @@ transition: .1s;
         height: 0;
     }
     .terin{
-        left: 15%;
+        left: 10%;
         top: 13vh;
-        width: 70%;
+        width: 80%;
         height: 64vh;
     }
     .ter{
@@ -1492,9 +1484,9 @@ transition: .1s;
     
     
     .terminal{
-        left: 15%;
+        left: 10%;
         top: 13vh;
-        width: 70%;
+        width: 80%;
         height: 64vh;
     }
     .term{
@@ -1502,22 +1494,48 @@ transition: .1s;
         height: 0;
     }
     .sett{
-        left: 15%;
+        left: 10%;
         top: 13vh;
-        width: 70%;
+        width: 80%;
         height: 64vh;
     }
     .set{
         width: 0;
     }
-    .menue{
-        left: 15%;
+    .menue {
+        left: 2%;
         top: 13vh;
-        width: 70%;
+        width: 96%;
         height: 64vh;
     }
     .men{
         width: 0;
         height: 0;
     }
+    .file{
+        display: none;
+    }
+    .file2{
+        display: none;
+    }
+    .camera{
+        display: none;
+    }
+    .music{
+        display: none;
+    }
+    .calender{
+        display: none;
+    }
+
+    .max{
+        left: auto;
+        width: 100%;
+        right: 0;
+        bottom: 41px;
+        top: 30px;
+        max-height: 100vh;
+        height: unset;
+    }
 }
+
