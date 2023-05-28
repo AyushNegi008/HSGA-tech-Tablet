@@ -160,6 +160,129 @@ tyd.addEventListener('click',()=>{
 
 
 
+
+
+
+
+
+let dimax=0; 
+dis = document.querySelector('.dis')
+discord = document.querySelector('.discord')
+monster = document.querySelector('.monster')
+
+monster.addEventListener('click',()=>{
+        
+        discord.classList.toggle('dis');
+
+        if(dimax==1){
+                dis.classList.toggle('max');
+        }
+        
+        ddfile.classList.add('ddf');
+        ddmenu.classList.add('ddm');
+        ddedit.classList.add('dde');
+        ddview.classList.add('ddv');
+        ddhelp.classList.add('ddh');
+        ddbook.classList.add('ddb');
+        ddset.classList.add('dds');
+        menue.classList.add('men');
+})
+
+dipd = document.querySelector('.dipd')
+dipd.addEventListener('click',()=>{
+
+        dis.classList.toggle('max');
+        if (dimax==0){
+                dimax=1;
+        }
+        else{
+                dimax=0;
+        }
+})
+
+dird = document.querySelector('.dird')
+dird.addEventListener('click',()=>{
+        
+        discord.classList.add('dis');
+        dis.classList.remove('max');
+
+})
+diyd = document.querySelector('.diyd')
+diyd.addEventListener('click',()=>{
+        
+        discord.classList.add('dis');
+        dis.classList.remove('max');
+
+})
+
+
+
+let dix=0;
+function direload() {
+        document.getElementById('disxi').src = '';
+        dix=0;
+    }
+dird.onclick = direload;
+
+function direload2() {
+        if (dix==0){
+                document.getElementById('disxi').src = 'https://www.aichatting.net/';
+                dix=1;
+                
+        }
+        z+=1;
+        document.getElementById("dis").style.zIndex = z;
+    }
+monster.onclick = direload2;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 let smax=0;
 set = document.querySelector('.set')
 sett = document.querySelector('.sett')
@@ -302,7 +425,23 @@ teyd.addEventListener('click',()=>{
 })
 
 
+let tex=0;
+function tereload() {
+        document.getElementById('termxi').src = '';
+        tex=0;
+    }
+terd.onclick = tereload;
 
+function tereload2() {
+        if (tex==0){
+                document.getElementById('termxi').src = 'https://www.jdoodle.com/test-bash-shell-script-online/?ref=itsfoss.com';
+                tex=1;
+                
+                
+        }
+        
+    }
+file.onclick = tereload2;
 
 
 
@@ -491,6 +630,56 @@ cayd.addEventListener('click',()=>{
 
 })
 
+let cax=0;
+function careload() {
+        document.getElementById('camxi').src = '';
+        cax=0;
+    }
+card.onclick = careload;
+
+function careload2() {
+        if (cax==0){
+                
+                
+                // Set constraints for the video stream
+                var constraints = { video: { facingMode: "user" }, audio: false };
+                // Define constants
+                const cameraView = document.querySelector("#camera--view"),
+                cameraOutput = document.querySelector("#camera--output"),
+                cameraSensor = document.querySelector("#camera--sensor"),
+                cameraTrigger = document.querySelector("#camera--trigger")
+                // Access the device camera and stream to cameraView
+                function cameraStart() {
+                navigator.mediaDevices
+                        .getUserMedia(constraints)
+                        .then(function(stream) {
+                        track = stream.getTracks()[0];
+                        cameraView.srcObject = stream;
+                })
+                .catch(function(error) {
+                        console.error("Oops. Something is broken.", error);
+                });
+                }
+                // Take a picture when cameraTrigger is tapped
+                cameraTrigger.onclick = function() {
+                cameraSensor.width = cameraView.videoWidth;
+                cameraSensor.height = cameraView.videoHeight;
+                cameraSensor.getContext("2d").drawImage(cameraView, 0, 0);
+                cameraOutput.src = cameraSensor.toDataURL("image/webp");
+                cameraOutput.classList.add("taken");
+                };
+                // Start the video stream when the window loads
+                window.addEventListener("load", cameraStart, false);
+
+                
+                cax=1;
+                
+                
+        }
+        
+    }
+camera.onclick = careload2;
+
 
 
 
@@ -670,6 +859,71 @@ ayd.addEventListener('click',()=>{
         angu.classList.remove('max');
 
 })
+
+let ax=0;
+function areload() {
+        document.getElementById('anguxi').src = '';
+        ax=0;
+    }
+ard.onclick = areload;
+
+function areload2() {
+        if (ax==0){
+                document.getElementById('anguxi').src = 'https://ng-run.com/';
+                ax=1;
+                
+                
+        }
+        
+    }
+alogo.onclick = areload2;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+calender = document.querySelector('.calender')
+calendarcontainer = document.querySelector('.calendarcontainer')
+ccc = document.querySelector('.ccc')
+calender.addEventListener('click',()=>{
+        
+        calendarcontainer.classList.toggle('ccc');
+
+        z+=1;
+        document.getElementById("ccc").style.zIndex = z;
+        
+        ddfile.classList.add('ddf');
+        ddmenu.classList.add('ddm');
+        ddedit.classList.add('dde');
+        ddview.classList.add('ddv');
+        ddhelp.classList.add('ddh');
+        ddbook.classList.add('ddb');
+        ddset.classList.add('dds');
+        menue.classList.add('men');
+
+
+})
+
+
+
+
+
 
 
 
@@ -1068,6 +1322,178 @@ ebg.addEventListener('click',()=>{
 
 
 })
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+let date = new Date();
+let year = date.getFullYear();
+let month = date.getMonth();
+ 
+const day = document.querySelector(".calendar-dates");
+ 
+const currdate = document
+    .querySelector(".calendar-current-date");
+ 
+const prenexIcons = document
+    .querySelectorAll(".calendar-navigation span");
+ 
+// Array of month names
+const months = [
+    "January",
+    "February",
+    "March",
+    "April",
+    "May",
+    "June",
+    "July",
+    "August",
+    "September",
+    "October",
+    "November",
+    "December"
+];
+ 
+// Function to generate the calendar
+const manipulate = () => {
+ 
+    // Get the first day of the month
+    let dayone = new Date(year, month, 1).getDay();
+ 
+    // Get the last date of the month
+    let lastdate = new Date(year, month + 1, 0).getDate();
+ 
+    // Get the day of the last date of the month
+    let dayend = new Date(year, month, lastdate).getDay();
+ 
+    // Get the last date of the previous month
+    let monthlastdate = new Date(year, month, 0).getDate();
+ 
+    // Variable to store the generated calendar HTML
+    let lit = "";
+ 
+    // Loop to add the last dates of the previous month
+    for (let i = dayone; i > 0; i--) {
+        lit +=
+            `<li class="inactive">${monthlastdate - i + 1}</li>`;
+    }
+ 
+    // Loop to add the dates of the current month
+    for (let i = 1; i <= lastdate; i++) {
+ 
+        // Check if the current date is today
+        let isToday = i === date.getDate()
+            && month === new Date().getMonth()
+            && year === new Date().getFullYear()
+            ? "active"
+            : "";
+        lit += `<li class="${isToday}">${i}</li>`;
+    }
+ 
+    // Loop to add the first dates of the next month
+    for (let i = dayend; i < 6; i++) {
+        lit += `<li class="inactive">${i - dayend + 1}</li>`
+    }
+ 
+    // Update the text of the current date element
+    // with the formatted current month and year
+    currdate.innerText = `${months[month]} ${year}`;
+ 
+    // update the HTML of the dates element
+    // with the generated calendar
+    day.innerHTML = lit;
+}
+ 
+manipulate();
+ 
+// Attach a click event listener to each icon
+prenexIcons.forEach(icon => {
+ 
+    // When an icon is clicked
+    icon.addEventListener("click", () => {
+ 
+        // Check if the icon is "calendar-prev"
+        // or "calendar-next"
+        month = icon.id === "calendar-prev" ? month - 1 : month + 1;
+ 
+        // Check if the month is out of range
+        if (month < 0 || month > 11) {
+ 
+            // Set the date to the first day of the
+            // month with the new year
+            date = new Date(year, month, new Date().getDate());
+ 
+            // Set the year to the new year
+            year = date.getFullYear();
+ 
+            // Set the month to the new month
+            month = date.getMonth();
+        }
+ 
+        else {
+ 
+            // Set the date to the current date
+            date = new Date();
+        }
+ 
+        // Call the manipulate function to
+        // update the calendar display
+        manipulate();
+    });
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

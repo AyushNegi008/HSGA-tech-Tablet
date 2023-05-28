@@ -172,6 +172,7 @@
         <div class="pd tpd">+</div>
         <div class="yd tyd">-</div>
         <div class="title">folder</div>
+        
     </div>
 
     <div id="sett" class="sett set"> 
@@ -186,6 +187,7 @@
         <div class="pd tepd">+</div>
         <div class="yd teyd">-</div>
         <div class="title">terminal</div>
+        <iframe id="termxi" class="iiframe" src="" frameborder="0"></iframe>
     </div>
 
     <div id="musi" class="musi mus">
@@ -196,11 +198,31 @@
         <iframe id="musxi" class="iiframe musxi" src="" frameborder="0"></iframe>
     </div>
 
+    <div id="dis" class="discord dis">
+        <div class="rd dird">x</div>
+        <div class="pd dipd">+</div>
+        <div class="yd diyd">-</div>
+        <div class="title">(ai) chat bot</div>
+        <iframe id="disxi" class="iiframe disxi" src="" frameborder="0"></iframe>
+    </div>
+
     <div id="camer" class="camer cam">
         <div class="rd card">x</div>
         <div class="pd capd">+</div>
         <div class="yd cayd">-</div>
         <div class="title">camera</div>
+        
+        <main id="camera">
+            <!-- Camera sensor -->
+            <canvas id="camera--sensor"></canvas>
+            <!-- Camera view -->
+            <video id="camera--view" autoplay playsinline></video>
+            <!-- Camera output -->
+            <img src="//:0" alt="" id="camera--output">
+            <!-- Camera trigger -->
+            <button id="camera--trigger">Take a picture</button>
+        </main>
+        
     </div>
 
     <div id="cod" class="cod co">
@@ -216,6 +238,36 @@
         <div class="pd apd">+</div>
         <div class="yd ayd">-</div>
         <div class="title">angular</div>
+        <iframe id="anguxi" class="iiframe" src="https://ng-run.com/" frameborder="0"></iframe>
+    </div>
+
+    <div id="ccc" class="calendarcontainer  ccc">
+        <header class="calendar-header">
+            <p class="calendar-current-date"></p>
+            <div class="calendar-navigation">
+                <span id="calendar-prev"
+                      class="material-symbols-rounded">
+                      ❮
+                </span>
+                <span id="calendar-next"
+                      class="material-symbols-rounded">
+                      ❯
+                </span>
+            </div>
+        </header>
+ 
+        <div class="calendar-body">
+            <ul class="calendar-weekdays">
+                <li>Sun</li>
+                <li>Mon</li>
+                <li>Tue</li>
+                <li>Wed</li>
+                <li>Thu</li>
+                <li>Fri</li>
+                <li>Sat</li>
+            </ul>
+            <ul class="calendar-dates"></ul>
+        </div>
     </div>
 
 
@@ -265,6 +317,10 @@
 
 
 
+
+
+
+       
 
 
 
